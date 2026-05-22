@@ -1,0 +1,98 @@
+/* External CSS */
+
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* ID Selector */
+#special-heading {
+    color: darkred;
+    text-decoration: underline;
+}
+
+/* Element Selector */
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: lightyellow;
+    padding: 10px;
+    border-left: 5px solid orange;
+}
+
+/* Div Styling */
+.content-box {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 15px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Span Styling */
+span {
+    color: red;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+    position: relative;
+    margin-top: 90px;
+    padding: 20px;
+}
+
+/* Absolute Box */
+.important-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: yellow;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Sticky Heading */
+.sticky-heading {
+    position: sticky;
+    top: 80px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+}

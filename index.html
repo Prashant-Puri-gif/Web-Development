@@ -4,38 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        .internal-style {
+            color: green;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Welcome to My First Webpage</h1>
+    <!-- Fixed Navbar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="feedback.html">Feedback</a>
+    </div>
 
-    <p>
-        Hello! My name is Prashant. I am learning HTML and web development.
-        I enjoy creating websites and exploring new technologies.
-    </p>
+    <!-- Main Content -->
+    <div class="main-content">
 
-    <h2>My Hobbies</h2>
-    <ol>
-        <li>Gaming</li>
-        <li>Coding</li>
-        <li>Watching Movies</li>
-    </ol>
+        <!-- Absolute Positioned Box -->
+        <div class="important-box">
+            Important
+        </div>
 
-    <h2>My Favorite Foods</h2>
-    <ul>
-        <li>Momo</li>
-        <li>Pizza</li>
-        <li>Burger</li>
-    </ul>
+        <!-- ID Selector -->
+        <h1 id="special-heading">Welcome to My First Webpage</h1>
 
-    <p>
-        I am <strong>very excited</strong> to learn web development.
-        It is an <em>interesting</em> subject.
-    </p>
+        <div class="content-box">
 
-    <p>
-        <a href="about.html">Go to About Page</a>
-    </p>
+            <p class="highlight">
+                Hello! My name is <span>Prashant</span>.
+                I am learning HTML and CSS.
+            </p>
+
+            <!-- Inline CSS -->
+            <p style="color: purple;">
+                This paragraph uses inline CSS.
+            </p>
+
+            <!-- Internal CSS -->
+            <p class="internal-style">
+                This paragraph uses internal CSS.
+            </p>
+
+        </div>
+
+        <!-- Sticky Heading -->
+        <h2 class="sticky-heading">My Hobbies</h2>
+
+        <ol>
+            <li>Gaming</li>
+            <li>Coding</li>
+            <li>Watching Movies</li>
+        </ol>
+
+        <h2>My Favorite Foods</h2>
+
+        <ul>
+            <li>Momo</li>
+            <li>Pizza</li>
+            <li>Burger</li>
+        </ul>
+
+        <p>
+            I am <strong>very excited</strong> to learn web development.
+            It is an <em>interesting</em> subject.
+        </p>
+
+        <!-- Extra Content for Scrolling -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    </div>
+
+    <div class="footer">
+        My First Website
+    </div>
 
 </body>
 </html>
